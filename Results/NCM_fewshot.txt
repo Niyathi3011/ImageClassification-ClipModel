@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+        bell       0.33      0.25      0.29         4
+      dolman       0.44      1.00      0.62         4
+     balloon       0.75      0.67      0.71         9
+         cap       1.00      0.79      0.88        14
+
+    accuracy                           0.71        31
+   macro avg       0.63      0.68      0.62        31
+weighted avg       0.77      0.71      0.72        31

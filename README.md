@@ -15,7 +15,8 @@ Take-Home Assignment: Few-Shot Learning with Mini Dataset
 
   ii) With the Nearest Mean Classifier. 
 
- ![On TEST](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/NCM_fewshot_test.png)
+ ![On TEST](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/NCM_fewshot_test.png) 
+
  ![On VALIDATION](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/NCM_fewshot_val.png)
   
 

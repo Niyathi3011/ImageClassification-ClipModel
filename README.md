@@ -44,7 +44,21 @@ The basic few-shot learning model is a simple model that uses a pre-trained CLIP
 
 I trained the models on the provided training data and evaluated them on the validation data.
 
-### Results
+### Results 
+
+The following confusion matrices show the performance of the three models on the validation data:
+
+### CLIP pre-trained model
+
+[https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png]
+
+### Nearest mean classifier model
+
+[Image of nearest mean classifier confusion matrix]
+
+### Few-shot learning model with my own network
+
+[Image of few-shot learning model with my own network confusion matrix]
 
 The following table shows the accuracy of the three models on the validation data:
 

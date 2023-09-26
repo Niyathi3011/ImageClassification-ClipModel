@@ -21,7 +21,7 @@ Take-Home Assignment: Few-Shot Learning with Mini Dataset
 
  iii) Upon Training 
 
-  ![On VALIDATION](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/net_fewshot.png)
+![On VALIDATION](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/net_fewshot.png)
   
 
       

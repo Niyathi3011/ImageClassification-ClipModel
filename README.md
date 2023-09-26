@@ -50,7 +50,7 @@ The following confusion matrices show the performance of the three models on the
 
 ### CLIP pre-trained model
 
-[(https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png)]
+(https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png)
 
 ### Nearest mean classifier model
 

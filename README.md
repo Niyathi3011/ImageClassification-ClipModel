@@ -68,6 +68,10 @@ I would like to explore the following future work:
 * Use more sophisticated neural network architectures.
 * Use more sophisticated data augmentation techniques.
 
+**REFERENCES** 
+https://chat.openai.com/ 
+(https://github.com/sergiuoprea/clip_with_few_shots/tree/master)https://github.com/sergiuoprea/clip_with_few_shots/tree/master 
+
 I hope this README is helpful!
 
   

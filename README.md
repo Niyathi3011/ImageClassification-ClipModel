@@ -30,11 +30,11 @@ Here are some of the specific advantages of using CLIP for few-shot learning:
 
 Overall, CLIP is a powerful and versatile model that is well-suited for few-shot learning tasks.
 
-I implemented the following three models:
+I implemented the following three methods:
 
-* Basic few-shot learning model
-* Few-shot learning model with the nearest mean classifier
-* Few-shot learning model with my own network
+* CLIP ( chosen model )
+* Nearest class Mean based classification with encoded image feature using CLIP
+* Extending CLIP with one layered fully connected network
 
 The basic few-shot learning model is a simple model that uses a pre-trained CLIP model to extract features from the images. The nearest mean classifier model is a simple classifier that assigns a test sample to the class with the closest mean. My own network is a simple neural network with a single hidden layer.
 

@@ -44,11 +44,11 @@ I trained the models on the provided training data and evaluated them on the val
 
 The following table shows the accuracy of the three models on the validation data:
 
-| Model | Accuracy |
-|---|---|
-| Basic few-shot learning model | 25% |
-| Few-shot learning model with the nearest mean classifier | 68% |
-| Few-shot learning model with my own network | 71% |
+| Model | Test Accuracy | Val Accuracy |
+|---|---|---|
+| Basic few-shot learning model | 25% |   |
+| Nearest mean classifier | 71% | 50% |
+| Few-shot learning model with my own network | 68% | 53.1% |
 
 **Conclusion**
 

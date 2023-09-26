@@ -1,24 +1,24 @@
 
 ## Take-Home Assignment: Few-Shot Learning with Mini Dataset
 
-1. **Overview**
+**Overview**
 
 This repository contains my code for the Take-Home Assignment: Few-Shot Learning with Mini Dataset from InTheLoop.ai.
 
-   **Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA)**
 
 The dataset consists of 31 images of four different classes: bell, dolman, balloon, and cap. The images are all in the same resolution and format.
 
-2. **Data Preparation**
+**Data Preparation**
 
 I used the following data augmentation techniques:
 
 * Color jittering
 * Random rotation
 
-3. **Model and Training** 
+**Model and Training**
 
-   **Why I chose the CLIP pre-trained model**
+### Why I chose the CLIP pre-trained model
 
 I chose to load the CLIP pre-trained model because it is a powerful vision-and-language model that has been shown to be effective for few-shot learning tasks. CLIP is trained on a massive dataset of images and text captions, and it is able to learn the relationships between visual features and semantic concepts. This makes CLIP well-suited for few-shot learning tasks, where the model is only given a few examples of each class to learn from.
 
@@ -30,29 +30,37 @@ Here are some of the specific advantages of using CLIP for few-shot learning:
 
 Overall, CLIP is a powerful and versatile model that is well-suited for few-shot learning tasks.
 
-I implemented the following three methods:
+### Models
 
-* CLIP ( chosen model )
+I implemented the following three models:
+
+* CLIP (chosen model)
 * Nearest class Mean based classification with encoded image feature using CLIP
 * Extending CLIP with one layered fully connected network
 
 The basic few-shot learning model is a simple model that uses a pre-trained CLIP model to extract features from the images. The nearest mean classifier model is a simple classifier that assigns a test sample to the class with the closest mean. My own network is a simple neural network with a single hidden layer.
 
+### Training
+
 I trained the models on the provided training data and evaluated them on the validation data.
 
-**Results**
+### Results
 
 The following table shows the accuracy of the three models on the validation data:
 
 | Model | Test Accuracy | Val Accuracy |
 |---|---|---|
-| Basic few-shot learning model | 25% |   |
+| Basic few-shot learning model | 25% | 25% |
 | Nearest mean classifier | 71% | 50% |
 | Few-shot learning model with my own network | 68% | 53.1% |
 
 **Conclusion**
 
-My own network outperforms the other two models on the validation data. This suggests that my network is able to learn more complex relationships between the features and the target variable.
+The CLIP pre-trained model outperforms the other two models on both the test and validation data. This suggests that the CLIP model is able to learn more complex relationships between the features and the target variable.
+
+However, the nearest mean classifier model performs better than the CLIP model on the test data. This is likely because the nearest mean classifier model is a simpler model and is therefore less likely to overfit the training data.
+
+Future work could explore using a larger dataset to train the models and using more sophisticated neural network architectures.
 
 **Future Work**
 

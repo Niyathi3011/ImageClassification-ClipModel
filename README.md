@@ -16,7 +16,19 @@ I used the following data augmentation techniques:
 * Color jittering
 * Random rotation
 
-**Model and Training**
+**Model and Training** 
+
+**Why I chose the CLIP pre-trained model**
+
+I chose to load the CLIP pre-trained model because it is a powerful vision-and-language model that has been shown to be effective for few-shot learning tasks. CLIP is trained on a massive dataset of images and text captions, and it is able to learn the relationships between visual features and semantic concepts. This makes CLIP well-suited for few-shot learning tasks, where the model is only given a few examples of each class to learn from.
+
+Here are some of the specific advantages of using CLIP for few-shot learning:
+
+* CLIP is able to learn the relationships between visual features and semantic concepts, even from a small number of examples. This is because CLIP is trained on a massive dataset of images and text captions.
+* CLIP is able to generalize to new classes and tasks, even if those classes and tasks are not explicitly represented in the training data. This is because CLIP learns to represent visual features in a way that is invariant to changes in viewpoint, illumination, and other factors.
+* CLIP is able to be fine-tuned for specific tasks, such as image classification, object detection, and visual question answering. This allows you to customize the model to meet your specific needs.
+
+Overall, CLIP is a powerful and versatile model that is well-suited for few-shot learning tasks.
 
 I implemented the following three models:
 

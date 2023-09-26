@@ -17,7 +17,11 @@ Take-Home Assignment: Few-Shot Learning with Mini Dataset
 
  ![On TEST](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/NCM_fewshot_test.png) 
 
- ![On VALIDATION](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/NCM_fewshot_val.png)
+ ![On VALIDATION](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/NCM_fewshot_val.png) 
+
+ iii) Upon Training 
+
+  ![On VALIDATION](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/net_fewshot.png)
   
 
       

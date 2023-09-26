@@ -50,15 +50,15 @@ The following confusion matrices show the performance of the three models on the
 
 ### CLIP pre-trained model
 
-![My image](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png)
+![CLIP pre-trained model confusion matrix](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png)
 
 ### Nearest mean classifier model
 
-[Image of nearest mean classifier confusion matrix]
+![Nearest mean classifier model confusion matrix](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/NCM_fewshot_test.png)
 
 ### Few-shot learning model with my own network
 
-[Image of few-shot learning model with my own network confusion matrix]
+![Few-shot learning model with my own network confusion matrix](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/net_fewshot.png)
 
 The following table shows the accuracy of the three models on the validation data:
 

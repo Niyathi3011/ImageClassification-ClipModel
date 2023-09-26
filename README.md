@@ -38,7 +38,7 @@ I implemented the following three models:
 * Nearest class Mean based classification with encoded image feature using CLIP
 * Extending CLIP with one layered fully connected network
 
-The basic few-shot learning model is a simple model that uses a pre-trained CLIP model to extract features from the images. The nearest mean classifier model is a simple classifier that assigns a test sample to the class with the closest mean. My own network is a simple neural network with a single hidden layer.
+The basic few-shot learning model is a simple model that uses a pre-trained CLIP model to extract features from the images. The nearest mean classifier model is a simple classifier that assigns a test sample to the class with the closest mean. My own network is a simple neural network with a single hidden layer extending CLIP.
 
 ### Training
 
@@ -59,8 +59,6 @@ The following table shows the accuracy of the three models on the validation dat
 The CLIP pre-trained model outperforms the other two models on both the test and validation data. This suggests that the CLIP model is able to learn more complex relationships between the features and the target variable.
 
 However, the nearest mean classifier model performs better than the CLIP model on the test data. This is likely because the nearest mean classifier model is a simpler model and is therefore less likely to overfit the training data.
-
-Future work could explore using a larger dataset to train the models and using more sophisticated neural network architectures.
 
 **Future Work**
 

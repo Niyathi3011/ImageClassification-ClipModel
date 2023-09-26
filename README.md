@@ -1,24 +1,24 @@
 
 ## Take-Home Assignment: Few-Shot Learning with Mini Dataset
 
-**Overview**
+1. **Overview**
 
 This repository contains my code for the Take-Home Assignment: Few-Shot Learning with Mini Dataset from InTheLoop.ai.
 
-**Exploratory Data Analysis (EDA)**
+   **Exploratory Data Analysis (EDA)**
 
 The dataset consists of 31 images of four different classes: bell, dolman, balloon, and cap. The images are all in the same resolution and format.
 
-**Data Preparation**
+2. **Data Preparation**
 
 I used the following data augmentation techniques:
 
 * Color jittering
 * Random rotation
 
-**Model and Training** 
+3. **Model and Training** 
 
-**Why I chose the CLIP pre-trained model**
+   **Why I chose the CLIP pre-trained model**
 
 I chose to load the CLIP pre-trained model because it is a powerful vision-and-language model that has been shown to be effective for few-shot learning tasks. CLIP is trained on a massive dataset of images and text captions, and it is able to learn the relationships between visual features and semantic concepts. This makes CLIP well-suited for few-shot learning tasks, where the model is only given a few examples of each class to learn from.
 

@@ -9,8 +9,7 @@ Take-Home Assignment: Few-Shot Learning with Mini Dataset
    Data augmentation that I am using, Color jittering and random rotation can help to make the model more robust to variations in the input data.
 
 3. Model and Training :
-   i. !([TakeHomeAssignment-InTheLoop.ai/Results
-/clip_fewshot_train.png](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png)https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png)
+  ![my-image](https://github.com/Niyathi3011/TakeHomeAssignment-InTheLoop.ai/blob/main/Results/clip_fewshot_train.png)
       
   
 

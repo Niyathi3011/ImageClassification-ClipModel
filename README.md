@@ -46,7 +46,7 @@ The following table shows the accuracy of the three models on the validation dat
 
 | Model | Accuracy |
 |---|---|
-| Basic few-shot learning model | 62% |
+| Basic few-shot learning model | 25% |
 | Few-shot learning model with the nearest mean classifier | 68% |
 | Few-shot learning model with my own network | 71% |
 
